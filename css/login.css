@@ -79,5 +79,9 @@ body {
 }
 .trigger-btn {
 	display: inline-block;
-	margin: 0px auto;
+	margin: 8px auto;
+	color: gray;
+}
+.trigger-btn .btn:hover{
+	color: black;
 }
