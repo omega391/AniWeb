@@ -1,3 +1,4 @@
+
 const http = require('http')
 const express = require('express')
 const path = require("path")
@@ -5,6 +6,11 @@ const { response } = require('express')
 const port = 3000
 const app = express()
 const fs = require('fs')
+// Firebase 
+
+
+
+
 
 app.use(express.static(__dirname + '/'));
 
