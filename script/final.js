@@ -1,18 +1,18 @@
-var sound = new Howl ({
-   src:['media/jazz.mp3'],
-   volume: 0.2,
-   loop:true,
+// var sound = new Howl ({
+//    src:['media/jazz.mp3'],
+//    volume: 0.2,
+//    loop:true,
 
-});
-var music = document.getElementById("bg_music");
-$(document).ready(function() {
-    // document is loaded and DOM is ready
-  sound.play();
-   display_c();
+// });
+// var music = document.getElementById("bg_music");
+// $(document).ready(function() {
+//     // document is loaded and DOM is ready
+//   sound.play();
+//    display_c();
 
 
 
-});
+// });
 
 function pauseAudio() {
     if(sound.playing(true)){
